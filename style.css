@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;  
+}
+.section-p1 {
+    padding:40px 80px;
+}
+#feature {
+    display: flex;
+    align-items: flex-start; /* Align items to the start */
+    justify-content: space-around; /* Space around items */
+    flex-wrap: wrap; /* Allow items to wrap into the next line if needed */
+    padding: 20px; /* Optional: Add padding to the section */
+    zoom:67%;
+}
+
+.featured-heading {
+    width: 100%; /* Full width for the heading */
+    text-align: center; /* Center the heading */
+    font-size: 2.5em; /* Size of the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #333; /* Color of the heading */
+}
+
+#feature .fe-box {
+    width: 400px; /* Adjusted width for 4 in a row */
+    text-align: center;
+    padding: 20px 10px; /* Reduced padding for tighter spacing */
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid;
+    border-radius: 4px;
+    margin: 10px; /* Reduced margin for spacing between boxes */
+    background-color: #cbd0d1; /* Background color behind the image */
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.03); /* Adjust shadow on hover */
+}
+
+#feature .fe-box h4 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1.2; /* Adjust line height for better spacing */
+    border-radius: 4px;
+}
+
+#feature .fe-box .rating {
+    color: gold; /* Color for the stars */
+    font-size: 1.2em; /* Size of the stars */
+    margin: 5px 0; /* Space around the rating */
+    background-color: #fff; /* Background color for rating section */
+    padding: 5px 0; /* Padding around the rating */
+    border-radius: 4px; /* Optional: rounded corners for rating background */
+}
+
+#feature .fe-box .price {
+    font-size: 1.5em; /* Price size */
+    color: #000; /* Price color */
+    margin-top: 5px; /* Space above the price */
+}
+
+#feature .fe-box img {
+    width: 100%; /* Make the image take the full width of the box */
+    height: 500px; /* Maintain aspect ratio */
+    border-radius: 4px; /* Optional */
+    cursor:pointer;
+}
+
+footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    zoom : 60%
+
+}
+
+footer .col{
+display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+align-items:flex-start;
+margin-bottom:20px;
+}
+
+footer .logo{
+margin-bottom:10px;
+margin-top:1px;
+}
+
+footer h4{
+font-size:2em;
+color: black;
+
+padding-bottom:30px
+}
+footer p{
+    font-size:1.5em;
+    margin: 0 0 8px 0;
+}
+
+footer p{
+    font-size:1.2em;
+    text-decoration:none;
+    color:black;
+    margin-bottom:20px;
+}
+
+footer a {
+    margin-bottom: 10px; /* Adjust the value to increase space */
+    text-decoration: none; /* Ensure links are not underlined */
+    color: rgb(12,11, 11); /* Link color */
+    font-size:1.2em;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color:#9c9fa3;
+}
+
+footer .copyright{
+    width:100%;
+    text-align: center;
+}
+.product-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.product-details {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #0056b3;
+}
